@@ -152,7 +152,7 @@ export const chapter3Questions: QuizCategory = {
         "físico",
         "red"
       ],
-      correctAnswer: [1, 2, 3],
+      correctAnswer: [0, 1, 2],
       explanation: "El modelo TCP/IP consta de cuatro capas: aplicación, transporte, Internet y acceso a la red. El modelo OSI consta de siete capas: aplicación, presentación, sesión, transporte, red, enlace de datos y física. Las tres capas superiores del modelo OSI: aplicación, presentación y sesión corresponden a la capa de aplicación del modelo TCP/IP.",
       type: "multiple"
     },
@@ -219,7 +219,7 @@ export const chapter3Questions: QuizCategory = {
         "Un paquete con la dirección IP de destino del ServidorB.",
         "Un marco con la dirección MAC de destino del ServidorB."
       ],
-      correctAnswer: [4, 5],
+      correctAnswer: [3, 4],
       explanation: "Para enviar datos al ServidorB, el HostA generará un paquete que contiene la dirección IP del dispositivo de destino en la red remota y un marco que contiene la dirección MAC del dispositivo de puerta de enlace predeterminado en la red local.",
       image: "/images/Capitulo3/q17.png",
       type: "multiple"
@@ -302,7 +302,7 @@ export const chapter3Questions: QuizCategory = {
         "HTTP",
         "ARP"
       ],
-      correctAnswer: 2,
+      correctAnswer: 1,
       explanation: "HTTP es el protocolo que segmenta y gestiona los mensajes entre el servidor y el cliente para la comunicación de documentos HTML.",
       type: "single"
     },
@@ -344,7 +344,7 @@ export const chapter3Questions: QuizCategory = {
         "Evitar posibles problemas de incompatibilidad mediante el uso de un conjunto común de herramientas de desarrollo.",
         "Simplificar el desarrollo del protocolo al limitar cada capa a una función"
       ],
-      correctAnswer: 3,
+      correctAnswer: 0,
       explanation: "El uso de un modelo en capas simplifica el desarrollo de protocolos al dividir las funciones en capas distintas y manejables.",
       type: "single"
     },
@@ -457,7 +457,7 @@ export const chapter3Questions: QuizCategory = {
         "la dirección MAC del host de destino",
         "la dirección IP de la puerta de enlace predeterminada"
       ],
-      correctAnswer: 2,
+      correctAnswer: 0,
       explanation: "La trama incluye la dirección MAC del host de destino para dirigir correctamente el mensaje dentro de la red.",
       type: "single"
     },
@@ -486,7 +486,7 @@ export const chapter3Questions: QuizCategory = {
         "eliminar vlan.dat",
         "eliminar flash:vlan.dat"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "El comando 'Sin acceso al puerto de conmutación VLAN 20' se utiliza para eliminar la VLAN 20 de la configuración del conmutador.",
       type: "single"
     },
