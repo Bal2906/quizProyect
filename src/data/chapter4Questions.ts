@@ -87,6 +87,7 @@ export const chapter4Questions: QuizCategory = {
       ],
       correctAnswer: 1,
       explanation: "Un cable de conexión directa (straight-through) se utiliza comúnmente para conectar un host a un switch y un switch a un router. Un cable cruzado (crossover) se utiliza para interconectar dispositivos similares como switch a switch, host a host o router a router. Un cable rollover se utiliza para conectar a un puerto de consola de un router o switch.",
+      image: "/images/Capitulo4/q6.png",
       type: "single"
     },
     {
@@ -100,6 +101,7 @@ export const chapter4Questions: QuizCategory = {
       ],
       correctAnswer: 2,
       explanation: "Cuando se termina un cable con un conector RJ-45, es importante asegurarse de que los cables desenrollados no sean demasiado largos y que la cubierta plástica flexible que rodea los cables esté correctamente crimpada, no los cables desnudos. Ninguno de los cables de colores debería ser visible desde la parte inferior del conector.",
+      image: "/images/Capitulo4/q7.png",
       type: "single"
     },
     {
@@ -234,6 +236,7 @@ export const chapter4Questions: QuizCategory = {
       ],
       correctAnswer: 2,
       explanation: "La Red 1 (LAN Ethernet) utiliza CSMA/CD. La Red 2 (conexión WAN punto a punto) no requiere control de acceso al medio. La Red 3 (WLAN) utiliza CSMA/CA.",
+      image: "/images/Capitulo4/q17.png",
       type: "single"
     },
     {
@@ -465,6 +468,7 @@ export const chapter4Questions: QuizCategory = {
       ],
       correctAnswer: 2,
       explanation: "CSMA/CD (Carrier Sense Multiple Access with Collision Detection) se utiliza principalmente en redes cableadas Ethernet para detectar colisiones y retransmitir datos. CSMA/CA (Carrier Sense Multiple Access with Collision Avoidance) se utiliza en redes inalámbricas para evitar colisiones mediante la coordinación del acceso al medio antes de transmitir. Por lo tanto, es correcto que la red 1 utiliza CSMA/CD y la red 3 utiliza CSMA/CA, ya que esta combinación describe el uso típico en redes cableadas e inalámbricas.",
+      image: "/images/Capitulo4/q37.png",
       type: "single"
     }
   ]
