@@ -4,6 +4,7 @@ import { chapter3Questions } from './chapter3Questions';
 import { chapter4Questions } from './chapter4Questions';
 import { chapter5Questions } from './chapter5Questions';
 import { chapter6Questions } from './chapter6Questions';
+import { chapter7Questions } from './chapter7Questions';
 import { chapter8Questions } from './chapter8Questions';
 
 export const categories = [
@@ -13,5 +14,6 @@ export const categories = [
   chapter4Questions,
   chapter5Questions,
   chapter6Questions,
+  chapter7Questions,
   chapter8Questions
 ];
